@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod dugo+x permissions
+chmod u+x permissions
