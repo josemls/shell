@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x permissions
+chmod +111 /shell/permissions/11-directories_permissions
