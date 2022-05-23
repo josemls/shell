@@ -18,4 +18,5 @@ This directory contains steps to understand how the permissions in shell work.
 7."chmod +111 hello" - Give everyone execution permission
 8."chmod 007 hello" - Give owner and group no permission, give user all permissions.
 9."chmod 753 hello" Giving owner all permission; group read and execute; user write y execute.
-10.
+10."chmod --reference=olleh hello" Copying permissions from a file to another one.
+11.
