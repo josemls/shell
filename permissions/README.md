@@ -16,4 +16,5 @@ This directory contains steps to understand how the permissions in shell work.
 5."chmod u+x hello" - Give execute permision to the owner of file
 6."chmod +114 hello" - Give execute permission to user and group and read to everyone else.
 7."chmod +111 hello" - Give everyone execution permission
-8."
+8."chmod 007 hello" - Give owner and group no permission, give user all permissions.
+9."
