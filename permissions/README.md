@@ -19,4 +19,7 @@ This directory contains steps to understand how the permissions in shell work.
 8."chmod 007 hello" - Give owner and group no permission, give user all permissions.
 9."chmod 753 hello" Giving owner all permission; group read and execute; user write y execute.
 10."chmod --reference=olleh hello" Copying permissions from a file to another one.
-11.
+11."chmod -R ugo+X ." Changing the permission of every subfolder.
+12."mkdir -m 751 my_dir" Creating a directory witha specific permision.
+13."chgrp school hello" Changing the group ownership of a file.
+14.
