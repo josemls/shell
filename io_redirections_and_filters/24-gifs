@@ -1,2 +1,2 @@
 #!/bin/bash
-fin . -type f -name "*.gif" | rev | cut -d '/' -f 1 | rev
+fin . -type f -name "*.gif" | rev | cut -d '/' -f | rev
