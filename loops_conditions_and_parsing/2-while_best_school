@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Dsiplay best school 10 times
+# Display best school 10 times
 counter=1
 while [ $counter -le 10 ]
 do
-echo Best School
+echo "Best School"
 done
