@@ -3,11 +3,11 @@
 
 file=school
 
-if [ -e "$file" ]
+if [ -e "$file" ];
 then
 	echo "$file file exist"
 
-if [ -s "$file" ]
+if [ -s "$file" ];
 then 
 	echo "$file file is not empty"
 
@@ -16,7 +16,7 @@ else
 
 fi
 
- if [ -f "$file" ]
+ if [ -f "$file" ];
  then 
 	echo "$file is a regular file"
  fi
