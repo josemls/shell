@@ -12,6 +12,3 @@ do
 	echo "$minutes"
 	((minutes++))
 done
-done
-
-
