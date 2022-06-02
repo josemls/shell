@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Script that displays numbers from 1 to 100
+number=1
+for number in {1..100}
+do
+	if ! ((number%15))
+	then 
+		echo "FizzBuzz"
+	elif ! ((number%3))
+	then 
+		echo "Fizz"
+	elif ! ((number%5))
+	then 
+		echo "Buzz"
+
+	else 
+		echo "$number"
+
+	fi
+done
+	
