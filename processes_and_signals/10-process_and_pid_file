@@ -2,7 +2,7 @@
 #
 
 sudo touch /var/run/myscript.pid
-echo $$ > /var/run/myscript.pid
+sudo bash -c ' echo $$ > /var/run/myscript.pid'
 
 while :
 do
@@ -12,6 +12,6 @@ trap 'echo "I hate the kill command"' SIGTERM
 
 trap 'echo "Y U no love me?!"' SIGINT
 
-sudo rm -r "/var/run/myscript.pid" SIGQUIT ; exit
+trap 'sudo rm -r "/var/run/myscript.pid" SIGQUIT ; exit'
 
 done
