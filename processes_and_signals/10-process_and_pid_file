@@ -8,10 +8,10 @@ while :
 do
 echo "To infinity and beyond "
 
-trap 'echo "I hate the kill command"' SIGTERM
+trap 'echo "I hate the kill command";sudo rm -r "/var/run/myscript.pid"' SIGTERM
 
 trap 'echo "Y U no love me?!"' SIGINT
 
-trap 'sudo rm -r "/var/run/myscript.pid" SIGQUIT ; exit'
+trap 'sudo rm -r "/var/run/myscript.pid";exit' SIGQUIT
 
 done
