@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #
 
-ps -aux | less | sort 
+ps aux | less 
