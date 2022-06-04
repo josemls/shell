@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+file="/tmp/my_process"
+while :
+do
+echo "I am alive"
+sleep 2
+done > "$file"
